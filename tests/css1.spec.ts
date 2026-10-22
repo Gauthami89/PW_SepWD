@@ -4,7 +4,7 @@ import {test} from "@playwright/test"
 /*   test.use({
     viewport:{width:1020, height:800}
 }) */
-
+//using the maximized view port from the config file
 test('learn css relationship based selectors',async ({page}) => {
 
 await page.goto("https://leaftaps.com/opentaps/control/main")
